@@ -2,8 +2,7 @@
   "compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-      "@pages": ["pages/*"],
-      "@components/*": ["components/*"]
+      "~/*": ["./*"],
     },
     "target": "es6",
     "lib": [
@@ -27,7 +26,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "pages/_app.js"  ],
   "exclude": [
     "node_modules"
   ]
