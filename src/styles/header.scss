@@ -1,0 +1,42 @@
+header {
+  width: 100vw;
+  border-bottom: 1px solid black;
+
+  .inner-cont {
+    display: flex;
+    justify-content: space-between;
+    
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+    // border: 1px solid black; 
+
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-wrapper {
+      
+      .logo-image {
+
+      }
+    }
+
+    .menu-area {
+      display: flex;
+      align-items: center;
+      .menu {
+
+        .item {
+          display: inline;
+          list-style: none;
+        }
+
+      }
+
+    }
+
+  }
+}
